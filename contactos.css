@@ -1,0 +1,233 @@
+body{
+    background-image: url(blog/fondo\ todos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            
+    
+    
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    
+
+}
+.imagen1 {
+  
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+
+}
+
+.imagen1:hover {
+  filter: grayscale(50%) brightness(120%) contrast(150%);
+  transform: scale(1.1);}
+.imagen1 {
+    
+    margin-left: 140px;
+    transform: translateY(-10px);
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    align-items: center;
+    flex-wrap: wrap;
+     
+
+ }
+  #menu li a, #redes li a{
+    color: #18171c;
+    padding:10px;
+    
+ }
+ #redes{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+ }
+ p{
+    color: white;
+    
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
+ h1{
+    text-align: center;
+    
+  top: 0;
+  background-color: #d5ac67;
+  z-index: 1000;
+  padding: 10px 0;
+  margin: 0;
+    
+}
+p {
+  /* Posicionamiento */
+  position: sticky;
+  top: 0;
+  background-color: #18171c;
+  z-index: 1000;
+  padding: 10px 0;
+  margin: 0;
+  
+
+  /* Modelo de caja */
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+  /* Tipografía */
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+
+  /* Colores y fondo */
+  color: #333;
+  background-color: #d5ac67;
+
+}
+nav{
+  position: sticky;
+  top: 0;
+  background-color:#ffffbf;
+  z-index: 1000;
+  padding: 10px 0;
+  margin: 0;
+  display: block;
+  
+}
+a{
+    text-decoration: none;
+}
+:root{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --color1:#334960;
+    --color2:black;
+    --color4:red;
+    
+    background-color: var(--color2);
+}
+header{     
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100;  
+}
+
+#menu,#redes{
+    list-style-type: none;         
+}
+#menu li a, #redes li a{
+    text-decoration: none;
+    
+    color:var(--color4)
+}
+#menu li a:hover,#redes li a:hover{
+    color:var(--color2);
+}
+
+    body {
+      font-family: Arial, sans-serif;
+    
+      color: #5a2a00;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #d5ac67;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #8b3e00;
+      margin-bottom: 10px;
+    }
+    .two-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .col {
+      flex: 1;
+      min-width: 280px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    td {
+      padding: 6px 4px;
+      vertical-align: top;
+          border:2px solid black;
+
+    }
+    td:first-child {
+      font-weight: bold;
+      width: 120px;
+    }
+    .horario {
+      background: #f0e5de;
+      padding: 12px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #cca28f;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    form button {
+      background: #8b3e00;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    form button:hover {
+      background: #6a2d00;
+    }
+    .map {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 4px;
+    }
+.imagen3 {
+    border-radius: 10px; /* Redondea las esquinas */
+    content: "";
+
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4)); /* degrada de transparente a negro */
+
+}
+
+  
+  
